@@ -380,7 +380,146 @@
         
     }
 
+    footer{
+        width: 100%;
+        background-color: #e6a37628;
 
+
+    }
+
+    footer .contact-page{
+        width: 100%;
+      margin-top: 20px;
+        padding: 10px;
+       
+    }
+
+    .contact-page .contact-page-header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+    
+    .contact-page-header h1{
+        font-size: 22px;
+         font-weight: bold;
+    }
+
+    .contact-page-header span{
+        color: orange;
+    }
+    
+    .contact-page-header input{
+        padding: 5px;
+        border-radius: 5px;
+        border: 0px;
+        outline:   solid orange;
+    }
+
+    .contact-page-btn button{
+       
+        background-color: orange;
+        color: white;
+        padding: 5px 15px;
+        border: 0px;
+        border-radius: 5px;
+    }
+
+   .contact-page-info{
+    width: 100%;
+    background-color: orange;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+
+    .contact-page-info .info{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .latest-blogs{
+        padding: 20px;
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .latest-blogs-header {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .latest-bolgs-header span{
+        color: orange;
+    }
+
+    .blogs-card{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      
+    }
+
+    .latest-blogs-page{
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+
+    .latest-blogs-page h3{
+        color: orange;
+    }
+
+    .latest-blogs-page button{
+        padding: 5px 30px;
+        border-radius: 5px;
+        background-color: orange;
+        color: #fff;
+        border: 0px;
+    }
+
+    .latest-blogs-page img{
+        width: 100%;
+    }
+
+    footer .last-footer-page{
+        width: 100%;
+        background-color: orange;
+        padding: 20px;
+
+    }
+
+    .last-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .last-page-img img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .last-page-icone{
+        display: flex;
+        gap: 10px;
+        font-size: 23px;
+    }
+
+    .last-page-pera h4{
+        font-size: 16px;
+    }
 
 
 
